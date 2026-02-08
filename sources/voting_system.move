@@ -20,7 +20,7 @@ public fun create_proposal (
     ctx: &mut TxContext
 ){
     let proposal: Proposal = Proposal {
-        id: object::new( ctx),
+        id: object::new(ctx),
         title,
         description,
         voted_yes_count: 0,
@@ -30,5 +30,5 @@ public fun create_proposal (
         voter_registry: vector[]    
     };
 
-    transfer::shared_object(obj: proposal);
+    transfer::share_object(proposal);
 }
