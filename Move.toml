@@ -9,10 +9,3 @@ edition = "2024"         # edition = "legacy" to use legacy (pre-2024) Move
 # Read more about the package management system options:
 # https://docs.sui.io/guides/developer/sui-101/move-package-management
 
-
-sui client call \
-   --package 0x914c2c2b13940e62e32de81a611fcb04177a9e603e525bd9b7cb63dddb6e2dc6 \
-   --module dashboard \
-   --function create_proposal \
-   --args "Proposal 1" "Proposal description 1" 1768564857 \
-   --gas-budget 100000000

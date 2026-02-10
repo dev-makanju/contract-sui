@@ -40,7 +40,7 @@ Before setting up the project, ensure you have the following installed:
 
 - Sui CLI
 
-## Instal Sui CLI
+## Install Sui CLI
 
 ```bash
 cargo install --locked --git https://github.com/MystenLabs/sui.git --branch main sui
@@ -79,9 +79,9 @@ sui client faucet
 sui client balance
 ```
 
-## Sui Wallet Setup
+## Build & Publish the Smart Contract
 
-Build the Move package
+1. Build the Move package
 
 ```bash
 sui move build
