@@ -1,4 +1,4 @@
-module voting_system::dashboard;
+module voting_system::proposal;
 
 use std::string::String;
 
